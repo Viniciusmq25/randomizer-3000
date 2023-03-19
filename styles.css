@@ -1,0 +1,50 @@
+body{
+    background-color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.randomizer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.randomizer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.numero{
+    padding: .5rem;
+    max-width: 100px;
+    background-color: beige;
+    border: solid black;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.resultado{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.acerto{
+    color: greenyellow;
+    display: none;
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-45deg);
+}
